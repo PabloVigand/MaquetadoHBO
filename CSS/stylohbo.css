@@ -1,0 +1,313 @@
+
+body{
+	background: #030328;
+}
+
+header{
+	height: 60px;
+	background: #02021c;
+	
+
+}
+nav{
+	position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: rgba(13, 14, 15, 0.3)
+}
+
+nav ul{
+	float: right;
+    padding-right: 16px;
+    padding-top: 8px;
+    margin-bottom: 10px;
+}
+
+nav ul li{
+	display: inline-block;
+	
+}
+nav .ingresa{
+	margin-right: 17px;
+	border-radius: 90px;
+	border: 3px solid transparent;
+	padding: 12px;
+	
+}
+
+nav .ingresa:active{
+	border: 3px solid #041c55;
+}
+ 
+nav ul li a{
+	letter-spacing: .3em;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 10.8px;
+	font-family: 'Inter', sans-serif;
+	
+}
+
+nav ul li a:hover{
+	color: white;
+	
+}
+
+nav img{
+	width: 190px;
+	height: 27px;
+	padding-left: 30px;
+	margin-top: 13px;
+	
+
+}
+
+.centrado{
+	text-align: center;
+}
+.espacios{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.splash{
+	
+	height: 100vh;
+	background: url(https://hbomax-images.warnermediacdn.com/2021-09/RnM-DSK.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=3840) center center ; /*esto hace que se fije la imagenes al bajar con center center fixed*/
+	background-size: cover; /*esto permite que el fondo de background se adapte a la pantalla*/
+	margin-bottom: 100px;
+}
+
+
+nav .boton{
+	background: #b535f6;
+	border-radius: 20px;
+	border: 3px solid transparent;
+	padding-top: 3px;
+	padding-bottom: 7.5px;
+	padding-left: 26.8px;
+	padding-right: 26.8px;
+	
+}
+
+nav .boton:active{
+	border: 3px solid #041c55;
+}
+
+
+
+
+
+
+.splash #Titulo{
+	font-family: 'Inter', sans-serif;
+	margin-top: 290px;
+	color: white;
+	font-size: 2.2rem;
+	margin-left: 45px;
+	display: inline-block;
+	padding: 6px;
+	letter-spacing: 0.5px;
+
+}
+
+.splash h5{
+	font-weight: normal;
+	color: white;
+	margin-left: 50px;
+	padding-top: 10px;
+
+}
+
+.splash .Precio{
+	color: white;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	letter-spacing: -3px;
+	font-size: 3rem;
+	margin-left: 50px;
+
+	
+}
+
+.splash div .DetallesDelPrecio{
+	display: inline-block;
+
+
+}
+
+
+.splash small{
+	display: inline-block;
+	padding-top: 33px;
+	color: white;
+	font-weight: 10;
+}
+
+.splash .linea{
+	padding-left: 50px;
+	width: 57%;
+}
+ .splash h6{
+ 	color: white;
+ 	display: inline-block;
+ }
+
+ .splash .btn{
+ 	background: #8127db;
+ 	margin-left: 50px;
+ 	border-radius: 90px;
+ 	border: 2px solid transparent;
+ 	color: white;
+ 	padding: 14px 21px 12px 21px;
+ 	margin-top: 12px;
+
+ 	
+
+ }
+
+ .splash .btn strong{
+
+ 	letter-spacing: .2em;
+ 	font-size: 19px;
+ 	font-family: 'Inter', sans-serif;
+
+ 	
+ 	
+ }
+
+
+.descripcion{
+ 	background: #190752;
+ 	height: 220px;
+ 	position: relative;
+ 	top: 20px;	
+ }
+.descripcion video{
+	height: 350px;
+	width: 510px;
+	padding: 10px;
+	border: 3px solid #4e1c8c ;
+	padding-bottom: 20px;
+}
+
+ .descripcion .container{
+ 	position: relative;
+ 	bottom: 57px;
+
+ 	
+ }
+
+
+
+ .descripcion h4{
+ 	color: white;
+ 	font-family: 'Poppins', sans-serif;	
+ 	padding-top: 110px;
+ 	text-align:left;
+ 	font-size: 1.25rem;
+    line-height: 1.6;
+ }
+
+section .Opciones{
+	color: white;
+	margin-top: 155px;
+	margin-bottom: 65px;
+
+	
+}
+
+section .Opciones h3{
+	font-weight: 400; /*grosor de la letra*/
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 1px;
+	font-size: 1.8 em;
+	line-height: 1.6;  /*espacio entre reglones*/
+
+}
+
+.card{
+	height: 160px;
+	width: 160px;
+	box-shadow: 0 0 150px #4e29e38c;
+	margin-bottom: 40px;
+	background: #5323e8;
+}
+
+
+.casiFinal div{
+	color: #591ea1;
+	text-decoration: none;
+	padding: 15px;
+	padding-top: 15px;
+
+	
+}
+.casiFinal div a{
+	color: #9e86ff;
+	text-decoration: none;
+	padding: 15px;
+	padding-top: 15px;
+	
+}
+
+
+footer img{
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 22px;
+
+}
+
+.btn:hover{
+    background: #030328;
+    color: white;
+    border: 2px  solid purple;
+    
+
+}
+
+.casiFinal .OpcionesFinal{
+	letter-spacing: 2px;
+	font-size: 90%;
+}
+.casiFinal .SegundoReglon{
+	font-size:80%;
+}	
+
+.casiFinal .small{
+	font-size:80%;
+	color: #9e86ff;
+}
+
+.casiFinal .col-12{
+	margin-bottom: -10px
+	
+}
+
+.casiFinal .col-12 a{
+	background: #030328;
+	border-radius: 90px;
+	padding: 10px;
+	border: 2px solid transparent;
+	
+}
+
+.casiFinal .col-12 a:hover{
+	color: white;
+	
+}
+.casiFinal .col-12 a:active{
+	border: 2px solid #041c55;
+}
+
+.casiFinal .col-12 a{
+	font-family: 'Poppins', sans-serif;
+	
+	}
+
+footer{
+	margin-bottom: 25px;
+}
+https://www.hbomax.com/ar/es/a/rick-and-morty?utm_id=sa%7c71700000084767129%7c58700007741015362%7cp70279256448&gclid=Cj0KCQjwxtSSBhDYARIsAEn0thTqq15_8ezeLvhIzpoDa9lyaGxzNwZnq6am6FDIVf1WQZns-iaAoWkaAqIgEALw_wcB&gclsrc=aw.ds&countryRedirect=1
